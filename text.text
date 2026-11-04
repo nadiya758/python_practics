@@ -1,0 +1,71 @@
+১০টি Python Practice Problem
+Level 1–2
+ প্রথমে নিজে চেষ্টা করবে।
+
+1. Course Fee Calculator
+
+একটি function তৈরি করো calculate_fee()।
+- Parameter: course_fee
+- Input: 5000
+- Return: 5000
+2. Discount Calculator
+
+একটি function তৈরি করো calculate_discount()।
+- Parameter: course_fee, discount
+- Input: 5000, 500
+- Output: 4500
+3. Percentage Discount
+
+১০% Discount হিসাব করো।
+- Course Fee = 5000
+- Discount = 10%
+- Output: Discount Amount = 500
+- Final Fee = 4500
+4. Student Information
+
+একটি function তৈরি করো student_info()।
+- Parameter: name, course, semester
+- Input: "Nadia", "Python", 6
+- Output: Student-এর তথ্য Print করবে।
+5. PDF Page Counter
+
+একটি function তৈরি করো count_pages()।
+- Parameter: total_pages
+- Input: 10
+- Output: Total PDF Pages: 10
+Level 2–3
+ RAG Project Practice
+
+6. Text Validator
+
+একটি function তৈরি করো validate_text()।
+- Parameter: text
+- Text খালি হলে return করবে "Text is empty"
+- Text থাকলে return করবে "Text is valid"
+7. Chunk Counter
+
+একটি function তৈরি করো count_chunks()।
+- Parameter: chunks
+- Input: ["Chunk 1", "Chunk 2", "Chunk 3"]
+- Output: Total Chunks: 3
+8. Question Validator
+
+একটি function তৈরি করো validate_question()।
+- Parameter: question
+- Question খালি হলে "Invalid Question"
+- Question থাকলে "Valid Question"
+9. Source Information
+
+একটি function তৈরি করো get_source()।
+- Parameter: filename, page
+- Input: "handbook.pdf", 2
+- Output: Source: handbook.pdf, Page: 2
+10. RAG Answer Formatter
+
+একটি function তৈরি করো format_answer()।
+- Parameter: answer, filename, page
+- Input:
+  - Answer = "Python course fee is 5000 BDT"
+  - Filename = "handbook.pdf"
+  - Page = 1
+- Output:
